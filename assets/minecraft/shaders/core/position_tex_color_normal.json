@@ -5,7 +5,7 @@
         "dstrgb": "1-srcalpha"
     },
     "vertex": "render/special/clouds",
-    "fragment": "render/common/block_cutout",
+    "fragment": "render/special/clouds",
     "attributes": [
         "Position",
         "UV0",

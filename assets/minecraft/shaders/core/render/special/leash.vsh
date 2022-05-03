@@ -1,5 +1,6 @@
 #version 150
 
+#moj_import <light.glsl>
 #moj_import <fog.glsl>
 
 in vec3 Position;
@@ -16,10 +17,10 @@ uniform int FogShape;
 
 out float vertexDistance;
 flat out vec4 vertexColor;
+out vec4 lightColor;
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
-
     vertexDistance = fog_distance(ModelViewMat, IViewRotMat * Position, FogShape);
-    vertexColor = Color * ColorModulator * texelFetch(Sampler2, UV2 / 16, 0);
+    vertexColor = Color * ColorModulator * minecraft_sample_lightmap(Sampler2, UV2);
 }

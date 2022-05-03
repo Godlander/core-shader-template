@@ -28,3 +28,10 @@ float fog_distance(mat4 modelViewMat, vec3 pos, int shape) {
         return max(distXZ, distY);
     }
 }
+
+//backwards compatibility for pre 1.18.2 fog
+float cylindrical_distance(mat4 modelViewMat, vec3 pos) {
+    float distXZ = length((modelViewMat * vec4(pos.x, 0.0, pos.z, 1.0)).xyz);
+    float distY = length((modelViewMat * vec4(0.0, pos.y, 0.0, 1.0)).xyz);
+    return max(distXZ, distY);
+}

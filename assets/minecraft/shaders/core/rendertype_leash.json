@@ -4,8 +4,8 @@
         "srcrgb": "srcalpha",
         "dstrgb": "1-srcalpha"
     },
-    "vertex": "render/special/leash",
-    "fragment": "render/special/leash",
+    "vertex": "render/leash",
+    "fragment": "render/leash",
     "attributes": [
         "Position",
         "Color",

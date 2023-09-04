@@ -4,8 +4,8 @@
         "srcrgb": "srcalpha",
         "dstrgb": "1-srcalpha"
     },
-    "vertex": "render/common/entity",
-    "fragment": "render/common/entity",
+    "vertex": "shared/entity_banner",
+    "fragment": "shared/entity_banner",
     "attributes": [
         "Position",
         "Color",

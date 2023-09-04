@@ -4,8 +4,8 @@
         "srcrgb": "srcalpha",
         "dstrgb": "1-srcalpha"
     },
-    "vertex": "render/special/simple",
-    "fragment": "render/special/beacon_beam",
+    "vertex": "render/beacon_beam",
+    "fragment": "render/beacon_beam",
     "attributes": [
         "Position",
         "Color",

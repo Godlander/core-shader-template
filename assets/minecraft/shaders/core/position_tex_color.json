@@ -4,8 +4,8 @@
         "srcrgb": "srcalpha",
         "dstrgb": "1-srcalpha"
     },
-    "vertex": "render/special/simple",
-    "fragment": "render/special/simple_cutout",
+    "vertex": "render/panorama_bg",
+    "fragment": "render/panorama_bg",
     "attributes": [
         "Position",
         "UV0",

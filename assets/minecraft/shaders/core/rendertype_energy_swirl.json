@@ -4,8 +4,8 @@
         "srcrgb": "srcalpha",
         "dstrgb": "1-srcalpha"
     },
-    "vertex": "render/special/energy_swirl",
-    "fragment": "render/special/energy_swirl",
+    "vertex": "render/energy_swirl",
+    "fragment": "render/energy_swirl",
     "attributes": [
         "Position",
         "Color",

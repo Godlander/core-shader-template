@@ -4,8 +4,8 @@
         "srcrgb": "srcalpha",
         "dstrgb": "1-srcalpha"
     },
-    "vertex": "render/common/block",
-    "fragment": "render/common/block_cutout",
+    "vertex": "shared/block_cutout",
+    "fragment": "shared/block_cutout",
     "attributes": [
         "Position",
         "Color",

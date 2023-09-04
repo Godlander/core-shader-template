@@ -4,8 +4,8 @@
         "srcrgb": "srcalpha",
         "dstrgb": "1-srcalpha"
     },
-    "vertex": "render/special/eyes",
-    "fragment": "render/special/eyes",
+    "vertex": "rendertype_eyes",
+    "fragment": "rendertype_eyes",
     "attributes": [
         "Position",
         "Color",

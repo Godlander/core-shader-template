@@ -4,8 +4,8 @@
         "srcrgb": "srcalpha",
         "dstrgb": "1-srcalpha"
     },
-    "vertex": "render/special/simple",
-    "fragment": "render/special/outline",
+    "vertex": "render/outline",
+    "fragment": "render/outline",
     "attributes": [
         "Position",
         "Color",

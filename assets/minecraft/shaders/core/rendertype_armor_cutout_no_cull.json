@@ -4,8 +4,8 @@
         "srcrgb": "srcalpha",
         "dstrgb": "1-srcalpha"
     },
-    "vertex": "render/special/armor",
-    "fragment": "render/special/armor",
+    "vertex": "render/armor",
+    "fragment": "render/armor",
     "attributes": [
         "Position",
         "Color",

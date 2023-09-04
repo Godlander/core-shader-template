@@ -4,8 +4,8 @@
         "srcrgb": "srcalpha",
         "dstrgb": "1-srcalpha"
     },
-    "vertex": "render/common/entity_overlay",
-    "fragment": "render/common/entity_cutout",
+    "vertex": "shared/entity_no_cull",
+    "fragment": "shared/entity_no_cull",
     "attributes": [
         "Position",
         "Color",

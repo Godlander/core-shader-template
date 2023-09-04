@@ -4,8 +4,8 @@
         "srcrgb": "srcalpha",
         "dstrgb": "1-srcalpha"
     },
-    "vertex": "render/common/block",
-    "fragment": "render/common/block",
+    "vertex": "shared/block_solid",
+    "fragment": "shared/block_solid",
     "attributes": [
         "Position",
         "Color",

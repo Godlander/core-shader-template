@@ -1,6 +1,8 @@
 #version 150
-#define CUTOUT
+#define DISCARD
 #define OVERLAY
-#define ENTITY
 #define TRANSLUCENT
+#define PLAYER
+#define MOB
+#define ITEM
 #moj_import <render/entity.fsh>

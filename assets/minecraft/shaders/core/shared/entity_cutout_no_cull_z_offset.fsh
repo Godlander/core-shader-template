@@ -1,8 +1,6 @@
 #version 150
-#define CUTOUT
+#define DISCARD
 #define OVERLAY
+#define CUTOUT_NO_CULL_Z_OFFSET
 #define ITEM
-#define SKULL
-#define SHULKER
-#define MINECART
 #moj_import <render/entity.fsh>

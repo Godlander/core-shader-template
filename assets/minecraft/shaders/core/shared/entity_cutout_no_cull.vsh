@@ -1,8 +1,7 @@
 #version 150
-#define CUTOUT
+#define DISCARD
 #define OVERLAY
+#define CUTOUT_NO_CULL
 #define ITEM
-#define SKULL
-#define SHULKER
-#define MINECART
+#define MOB
 #moj_import <render/entity.vsh>

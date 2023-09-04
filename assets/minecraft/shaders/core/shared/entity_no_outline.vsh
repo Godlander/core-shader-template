@@ -1,3 +1,4 @@
 #version 150
-#define BANNER
+#define NO_OUTLINE
+#define BANNER_PATTERN
 #moj_import <render/entity.vsh>

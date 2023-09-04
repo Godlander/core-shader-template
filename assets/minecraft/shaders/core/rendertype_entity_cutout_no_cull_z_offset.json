@@ -4,8 +4,8 @@
         "srcrgb": "srcalpha",
         "dstrgb": "1-srcalpha"
     },
-    "vertex": "shared/entity_no_cull_z_offset",
-    "fragment": "shared/entity_no_cull_z_offset",
+    "vertex": "shared/entity_cutout_no_cull_z_offset",
+    "fragment": "shared/entity_cutout_no_cull_z_offset",
     "attributes": [
         "Position",
         "Color",

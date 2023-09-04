@@ -4,8 +4,8 @@
         "srcrgb": "srcalpha",
         "dstrgb": "1-srcalpha"
     },
-    "vertex": "shared/entity_no_cull",
-    "fragment": "shared/entity_no_cull",
+    "vertex": "shared/entity_cutout_no_cull",
+    "fragment": "shared/entity_cutout_no_cull",
     "attributes": [
         "Position",
         "Color",

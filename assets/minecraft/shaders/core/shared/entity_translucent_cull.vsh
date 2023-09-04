@@ -1,5 +1,5 @@
 #version 150
-#define CUTOUT
+#define DISCARD
+#define TRANSLUCENT_CULL
 #define ITEM
-#define TRANSLUCENT
 #moj_import <render/entity.vsh>

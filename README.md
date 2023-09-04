@@ -8,7 +8,7 @@ if there are any visual differences from vanilla lemme know
 
 ### Changes from vanilla
 
-- grouped all block / entity renderers in `core/shared`, tagged what they can affect with `#define`s, and consolidated block and entity shader in `include/render`
+- grouped all block / entity renderers in `core/shared`, tagged with `#define` s, and consolidated block and entity shader in `include/render`
 - renamed many other unique renderers appropriately in `core/render`
 - changed all cases of `texelFetch(Sampler2, UV2 / 16., 0)` to `minecraft_sample_lightmap(Sampler2, UV2)`, this makes all lighting use the same function so changing lighting will be consistent.
 

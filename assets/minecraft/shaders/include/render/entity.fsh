@@ -21,8 +21,8 @@ out vec4 fragColor;
 
 void main() {
     vec4 color = texture(Sampler0, texCoord0);
-#ifdef CUTOUT
-    if (color.a < 0.01) discard;
+#ifdef DISCARD
+    if (color.a < DISCARD) discard;
 #endif
     color *= vertexColor * ColorModulator;
 #ifdef OVERLAY

@@ -1,6 +1,7 @@
 #version 150
 
 #moj_import <fog.glsl>
+#moj_import <config.glsl>
 
 uniform sampler2D Sampler0;
 
@@ -19,8 +20,8 @@ out vec4 fragColor;
 
 void main() {
     vec4 color = texture(Sampler0, texCoord0);
-#ifdef CUTOUT
-    if (color.a < 0.01) discard;
+#ifdef DISCARD
+    if (color.a < DISCARD_THRESHOLD) discard;
 #endif
     color *= vertexColor * lightColor * ColorModulator;
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);

@@ -6,11 +6,6 @@
     },
     "vertex": "render/lines",
     "fragment": "render/lines",
-    "attributes": [
-        "Position",
-        "Color",
-        "Normal"
-    ],
     "samplers": [
     ],
     "uniforms": [

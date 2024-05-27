@@ -4,13 +4,8 @@
         "srcrgb": "srcalpha",
         "dstrgb": "1-srcalpha"
     },
-    "vertex": "render/panorama_bg",
-    "fragment": "render/panorama_bg",
-    "attributes": [
-        "Position",
-        "UV0",
-        "Color"
-    ],
+    "vertex": "position_tex_color",
+    "fragment": "position_tex_color",
     "samplers": [
         { "name": "Sampler0" }
     ],

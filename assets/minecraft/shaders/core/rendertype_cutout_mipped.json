@@ -6,13 +6,6 @@
     },
     "vertex": "shared/block_cutout_mipped",
     "fragment": "shared/block_cutout_mipped",
-    "attributes": [
-        "Position",
-        "Color",
-        "UV0",
-        "UV2",
-        "Normal"
-    ],
     "samplers": [
         { "name": "Sampler0" },
         { "name": "Sampler2" }

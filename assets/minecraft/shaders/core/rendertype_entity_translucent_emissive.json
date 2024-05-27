@@ -6,13 +6,6 @@
     },
     "vertex": "render/warden_emissive",
     "fragment": "render/warden_emissive",
-    "attributes": [
-        "Position",
-        "Color",
-        "UV0",
-        "UV1",
-        "Normal"
-    ],
     "samplers": [
         { "name": "Sampler0" },
         { "name": "Sampler1" }

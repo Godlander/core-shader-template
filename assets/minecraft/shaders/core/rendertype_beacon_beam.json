@@ -6,11 +6,6 @@
     },
     "vertex": "render/beacon_beam",
     "fragment": "render/beacon_beam",
-    "attributes": [
-        "Position",
-        "Color",
-        "UV0"
-    ],
     "samplers": [
         { "name": "Sampler0" }
     ],

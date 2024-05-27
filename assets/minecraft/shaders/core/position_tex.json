@@ -6,10 +6,6 @@
     },
     "vertex": "render/gui_texture",
     "fragment": "render/gui_texture",
-    "attributes": [
-        "Position",
-        "UV0"
-    ],
     "samplers": [
         { "name": "Sampler0" }
     ],

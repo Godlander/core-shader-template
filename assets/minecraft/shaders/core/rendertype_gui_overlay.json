@@ -6,9 +6,6 @@
     },
     "vertex": "render/gui_overlay",
     "fragment": "render/gui_overlay",
-    "attributes": [
-        "Color"
-    ],
     "samplers": [
     ],
     "uniforms": [

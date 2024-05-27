@@ -6,10 +6,6 @@
     },
     "vertex": "render/glint_armor",
     "fragment": "render/glint",
-    "attributes": [
-        "Position",
-        "UV0"
-    ],
     "samplers": [
         { "name": "Sampler0" }
     ],
